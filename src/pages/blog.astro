@@ -1,4 +1,6 @@
 ---
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
 ---
 
@@ -12,9 +14,7 @@ import '../styles/global.css';
 		<title>Astro</title>
 	</head>
 	<body>
-		<a href="/">Главная</a>
-        <a href="/about/">О сайте</a>
-        <a href="/blog/">Блог</a>
+		<Navigation />
 		<h1>Мой блог об изучении Astro</h1>
         <p>Здесь я буду публиковать записи о своем пути изучения Astro.</p>  
         <ul>
